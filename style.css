@@ -15,6 +15,7 @@ h1, h2, h3 {
     margin: 0px 0px 10px 0px;
     font-family: 'Lobster', Georgia, Times, serif;
     color: #4C4C4C;
+    letter-spacing: 2px;
 }
 
 h1 {
@@ -29,7 +30,7 @@ p {
 }
 
 ul {
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 40px;
 }
 
 table {
@@ -42,9 +43,11 @@ th, td {
 }
 
 th {
-    background: #000;
-    color: #FFF;
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    background: #4C4C4C;
+    color: #FFFFFD;
     padding: 5px;
+    letter-spacing: 2px;
 }
 
 td {
@@ -61,4 +64,8 @@ td {
     float: left;
     display: inline-block;
     margin: 0 auto;
+}
+
+.language {
+    font-weight: bold;
 }
