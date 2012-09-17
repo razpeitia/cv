@@ -12,10 +12,11 @@ body {
 }
 
 h1, h2, h3 {
-    margin: 0px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
     font-family: 'Lobster', Georgia, Times, serif;
     color: #4C4C4C;
     letter-spacing: 2px;
+    clear: left;
 }
 
 h1 {
@@ -25,12 +26,24 @@ h1 {
     border-bottom: 5px double #000;
 }
 
+h3 {
+    text-indent: 10px;
+}
+
 p {
     margin: 10px;
 }
 
 ul {
-    margin: 0px 0px 0px 40px;
+    margin: 0px 0px 10px 0px;
+    list-style: square;
+    width: 30em;
+}
+
+li {
+    margin-left: 20px;
+    float: left;
+    width: 10em;
 }
 
 table {
