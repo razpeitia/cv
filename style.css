@@ -23,7 +23,11 @@ h1 {
     text-align: center;
     font-size: 50px;
     line-height: 55px;
-    border-bottom: 5px double #30B0D8;
+    border-bottom: 5px double #99A;
+    color: #4C4C4C;
+}
+
+h2 {
 }
 
 h3 {
@@ -58,7 +62,7 @@ th, td {
 
 th {
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
-    background: #19C;
+    background: #99A;
     color: #FFFFFD;
     padding: 5px;
     letter-spacing: 2px;
