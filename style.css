@@ -14,7 +14,7 @@ body {
 h1, h2, h3 {
     margin: 10px 0px;
     font-family: 'Lobster', Georgia, Times, serif;
-    color: #4C4C4C;
+    color: #30B0D8;
     letter-spacing: 2px;
     clear: left;
 }
@@ -23,7 +23,7 @@ h1 {
     text-align: center;
     font-size: 50px;
     line-height: 55px;
-    border-bottom: 5px double #000;
+    border-bottom: 5px double #30B0D8;
 }
 
 h3 {
@@ -58,7 +58,7 @@ th, td {
 
 th {
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
-    background: #4C4C4C;
+    background: #19C;
     color: #FFFFFD;
     padding: 5px;
     letter-spacing: 2px;
