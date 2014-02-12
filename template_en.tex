@@ -1,0 +1,97 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper]{moderncv}
+
+\usepackage[T1]{fontenc}
+\usepackage[frenchb]{babel}
+% moderncv themes
+\moderncvtheme[green]{classic}                 % optional argument are 'blue'
+%(default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts,
+%instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are
+%using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                 
+% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic
+%theme, if you want to change the width of your name placeholder (to leave more
+%space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes
+%are made to page layout lengths
+
+% personal data
+\firstname{Ricardo}
+\familyname{Azpeitia Pimentel}
+\title{CURRICULUM VITAE{}}               % optional, remove the line if not
+%wanted
+\extrainfo{23 years old}
+
+\address{Address}{Monterrey, Nuevo León}    % optional, remove the line
+%if not wanted
+\mobile{Phone Number: 81-23-09-59}                    % optional, remove the line if not
+%wanted
+
+\email{razpeitia@gmail.com}                      % optional, remove the
+%line if not wanted
+                         % '64pt' is the height the picture
+%must be resized to and 'picture' is the name of the picture file; optional,
+%remove the line if not wanted
+\quote{}                 % optional, remove the line if not
+%wanted
+
+% to show numerical labels in the bibliography; only useful if you make
+%citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic
+%page numbering for CVs longer than one page
+%-------------------------------------------------------------------------------
+
+%            content
+%-------------------------------------------------------------------------------
+
+\begin{document}
+\maketitle
+
+\section{Education}
+\cventry{2011}{Bachelor Degree}{at Universidad Autónoma de Nuevo León}{Facultad de Ciencias Físico Matemáticas}{specialty System Analysis}{} %
+
+\section{Professional Experience}
+\cventry{March 2011 - April 2013}{Developer}{at Electrónica JAR}{Located at Monterrey, Nuevo León}{}{Activities: Applications development for microcontrollers specifically for the family Microchip 18F of microcontrollers also development of Android applications.}
+
+\cventry{Mayo 2013}{Developer}{at ESEN S.A. de C.V}{located at Monterrey, Nuevo León}{}{Activities: web development, website created: www.esen.com.mx www.eor.com.mx. Sysadmin tasks.}
+
+\section{Languages}
+\cvlanguage{English}{Advanced}{Skills: Read, Write, Listen y Talk. Test TOEFL iBT 81 points, TOELF PBT 550 points.}
+\cvlanguage{Japanese}{Intermediate}{Skills: Read, Write, Listen, Talk. Test Noryokushiken Level 4.}
+\cvlanguage{Spanish}{Native}{}
+
+\section{Technical Information}
+\cvcomputer{Operative Systems}{Linux, Windows, Android}{Tools y Others}{\LaTeX, Git, Mercurial, Markdown, HTML, CSS}
+\cvcomputer{Programming Languages}{C, C++, Java, Python, JavaScript, SQL}{Frameworks}{Django, wx}
+\cvcomputer{RDBMS}{MS SQL Server 2005 y 2008, SQLite3, MySQL, PostgresSQL}{}{}
+
+\section{Hobbies}
+\cvline{}{Lecture, Competitive Programming, Photography}
+
+\end{document}
+
+
+%% end of file `template_en.tex'.
